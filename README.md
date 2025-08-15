@@ -1,70 +1,26 @@
-# Crypto-Tracker
-A crypto tracker build with Rust-first for Cloudflare-edge
-
-Repository layout
-- Root
-    - wrangler.toml — Cloudflare config and bindings
-    - package.json — scripts for dev/deploy and TypeScript build
-    - README.md — shipped below
-    - .github/workflows/deploy.yml — optional CI deploy with Wrangler
-- src/
-    - lib.rs — Rust Worker entry (routes + scheduler)
-    - routes.rs — API handlers (prices, portfolio stub)
-- db/
-    - schema.sql — D1 schema
-    - seed.sql — initial assets + halal tags
-- public/
-    - index.html — minimal market watch UI (polling)
-- do/ (optional Phase 2)
-    - ticker_hub.ts — Durable Object for WebSocket fan‑out
-
-Step‑by‑step setup
-1. Prerequisites
-    - Rust: stable toolchain and wasm target
-    - rustup target add wasm32-unknown-unknown
-    - Node + pnpm/npm: to drive Wrangler and DO TypeScript
-    - Cloudflare Wrangler: npm i -g wrangler
-    - Cloudflare account: account id and an API token with Worker/D1/KV permissions
-2. Create the project folder
-    - mkdir halal-watch && cd halal-watch
-    - git init
-3. Initialize Node workspace
-    - pnpm init -y
-    - pnpm add -D wrangler typescript esbuild
-4. Create a new Rust library for the Worker
-    - cargo new --lib edge --vcs none
-    - Move its contents up into src/ (we’ll keep code under src/)
-        - rm -rf edge
-    - Ensure Rust compiles to WASM:
-        - echo ‘[lib]\ncrate-type = ["cdylib"]’ >> Cargo.toml
-5. Add Cloudflare resources
-    - KV namespace for prices:
-        - wrangler kv namespace create PRICES_KV
-    - D1 database:
-        - wrangler d1 create halal_watch
-    - Note the IDs; you’ll paste them into wrangler.toml.
-6. Set Cloudflare secrets
-    - wrangler secret put BINANCE_API_BASE
-        - Use https://api.binance.com (or a mirror if rate‑limited)
-7. Create GitHub repo and push
-    - On GitHub, create an empty repo (e.g., halal-watch)
-    - Locally:
-        - git remote add origin https://github.com/yourname/halal-watch.git
-        - echo "node_modules\nbuild\n.wrangler\n" >> .gitignore
-        - git add .
-        - git commit -m "feat: initial edge MVP"
-        - git push -u origin main
-8. Local dev and first deploy
-    - pnpm wrangler dev
-    - In another terminal, seed D1:
-        - wrangler d1 execute halal_watch --file db/schema.sql
-        - wrangler d1 execute halal_watch --file db/seed.sql
-    - Deploy:
-        - pnpm wrangler deploy
-
-# Halal Watch (Rust + Cloudflare Edge)
+# Crypto-Tracker (Rust + Cloudflare Edge)
 
 A lean, Rust-first crypto market watch and portfolio tracker hosted at the edge. It tracks a curated set of assets and supports Shariah-compliance tagging out of the box.
+
+---
+
+## Repository layout
+
+- Root
+-- wrangler.toml #Cloudflare config and bindings
+-- package.json #scripts for dev/deploy and TypeScript build
+-- README.md #shipped below
+-- .github/workflows/deploy.yml #optional CI deploy with Wrangler
+- src/
+-- lib.rs #Rust Worker entry (routes + scheduler)
+-- routes.rs #API handlers (prices, portfolio stub)
+- db/
+-- schema.sql #D1 schema
+-- seed.sql #initial assets + halal tags
+- public/
+-- index.html #minimal market watch UI (polling)
+- do/ #Optional Phase 2
+-- ticker_hub.ts #Durable Object for WebSocket fan‑out
 
 ---
 
