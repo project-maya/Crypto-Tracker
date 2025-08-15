@@ -4,23 +4,23 @@ A lean, Rust-first crypto market watch and portfolio tracker hosted at the edge.
 
 ---
 
-## Repository layout
+## Repository Structure
 
-- Root
--- wrangler.toml #Cloudflare config and bindings
--- package.json #scripts for dev/deploy and TypeScript build
--- README.md #shipped below
--- .github/workflows/deploy.yml #optional CI deploy with Wrangler
-- src/
--- lib.rs #Rust Worker entry (routes + scheduler)
--- routes.rs #API handlers (prices, portfolio stub)
-- db/
--- schema.sql #D1 schema
--- seed.sql #initial assets + halal tags
-- public/
--- index.html #minimal market watch UI (polling)
-- do/ #Optional Phase 2
--- ticker_hub.ts #Durable Object for WebSocket fan‑out
+Root/
+|-- wrangler.toml #Cloudflare config and bindings
+|-- package.json #scripts for dev/deploy and TypeScript build
+|-- README.md #shipped below
+|-- .github/workflows/deploy.yml #optional CI deploy with Wrangler
+|--src/
+| |-- lib.rs #Rust Worker entry (routes + scheduler)
+| |-- routes.rs #API handlers (prices, portfolio stub)
+|-- db/
+| |-- schema.sql #D1 schema
+| |-- seed.sql #initial assets + halal tags
+|-- public/
+| |-- index.html #minimal market watch UI (polling)
+|-- do/ #Optional Phase 2
+| |-- ticker_hub.ts #Durable Object for WebSocket fan‑out
 
 ---
 
