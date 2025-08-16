@@ -1,0 +1,11 @@
+F:\TeknologiMAYA\Project\Crypto-Tracker\target\wasm32-unknown-unknown\release\deps\libpowerfmt-7c5c8f48ebb218a4.rmeta: C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\powerfmt-0.2.0\src\lib.rs C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\powerfmt-0.2.0\src\buf.rs C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\powerfmt-0.2.0\src\ext.rs C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\powerfmt-0.2.0\src\smart_display.rs C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\powerfmt-0.2.0\src\smart_display_impls.rs
+
+F:\TeknologiMAYA\Project\Crypto-Tracker\target\wasm32-unknown-unknown\release\deps\libpowerfmt-7c5c8f48ebb218a4.rlib: C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\powerfmt-0.2.0\src\lib.rs C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\powerfmt-0.2.0\src\buf.rs C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\powerfmt-0.2.0\src\ext.rs C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\powerfmt-0.2.0\src\smart_display.rs C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\powerfmt-0.2.0\src\smart_display_impls.rs
+
+F:\TeknologiMAYA\Project\Crypto-Tracker\target\wasm32-unknown-unknown\release\deps\powerfmt-7c5c8f48ebb218a4.d: C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\powerfmt-0.2.0\src\lib.rs C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\powerfmt-0.2.0\src\buf.rs C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\powerfmt-0.2.0\src\ext.rs C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\powerfmt-0.2.0\src\smart_display.rs C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\powerfmt-0.2.0\src\smart_display_impls.rs
+
+C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\powerfmt-0.2.0\src\lib.rs:
+C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\powerfmt-0.2.0\src\buf.rs:
+C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\powerfmt-0.2.0\src\ext.rs:
+C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\powerfmt-0.2.0\src\smart_display.rs:
+C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\powerfmt-0.2.0\src\smart_display_impls.rs:

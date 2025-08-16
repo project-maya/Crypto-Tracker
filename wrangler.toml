@@ -13,9 +13,9 @@ DEFAULT_SYMBOLS = "BTC,ETH,ADA,MATIC,AVAX,SOL,LINK,XLM"
 
 [[kv_namespaces]]
 binding = "PRICES_KV"
-id = ${{ secrets.CF_KV_ID }}
+id = "7ff00b77219740a5a51c2abc7e102ee6"
 
 [[d1_databases]]
 binding = "DB"
 database_name = "crypto_tracker"
-database_id = ${{ secrets.CF_D1_ID }}
+database_id = "ff7878c1-c246-45d6-8c8a-cc4f5ab1913c"

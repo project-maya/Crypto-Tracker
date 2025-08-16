@@ -1,4 +1,5 @@
 use worker::*;
+use console_error_panic_hook;
 
 mod routes;
 
