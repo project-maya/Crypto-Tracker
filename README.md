@@ -1,96 +1,105 @@
----
+# 🕌 Shariah‑Compliant Crypto Tracker  
+**Rust + Cloudflare Workers + Dioxus Roadmap | Ethical | Serverless | Reproducible**
 
-# Crypto-Tracker (Rust + Cloudflare Edge)
-
-A lean, Rust-first crypto market watch and portfolio tracker hosted at the edge. It tracks a curated set of assets and supports Shariah-compliance tagging out of the box.
-
----
-
-## Crypto Tracker Backend
+A lean, Rust‑first crypto market watch and portfolio tracker hosted at the edge.  
+Built to deliver **fast, privacy‑first tracking** of a curated set of crypto assets —  
+with **Shariah‑compliance tagging and filtering baked in** from the start.
 
 [![GitHub release](https://img.shields.io/github/v/release/project-maya/Crypto-Tracker?sort=semver&color=success&label=release)](https://github.com/project-maya/Crypto-Tracker/releases)
 
-Rust + Cloudflare Workers backend for a Shariah‑compliant, privacy‑focused crypto tracker.
+---
+
+## 📖 Mission
+
+Crypto investment tools are everywhere — but few prioritize **ethical transparency**  
+and **faith‑aligned compliance**. This tracker exists to fill that gap by:
+
+- Tracking only approved or review‑status assets based on compliance rules you control.
+- Running **entirely on serverless edge infrastructure** for speed and scalability.
+- Keeping **data flows minimal** for privacy, without selling or sharing usage data.
+- Providing a **reproducible, version‑controlled backend** so anyone can self‑host with confidence.
 
 ---
 
-## Repository Structure
+## 🚀 Features
 
-crypto-tracker/
-├─ wrangler.toml             # Cloudflare config and bindings
-├─ package.json              # scripts for dev/deploy and TypeScript build
-├─ README.md
-├─ .github/
-│  └─ workflows/deploy.yml   # optional CI deploy with Wrangler
-├─ src/
-│  └─ lib.rs                 # Rust Worker entry (routes + scheduler)
-│  └─ routes.rs              # API handlers (prices, portfolio stub)
-├─ db/
-│  ├─ schema.sql             # D1 schema
-│  └─ seed.sql               # initial assets + halal tags
-└─ public/
-   └─ index.html
+### ✅ Current (v1.1.0)
+- **D1 schema & seed** for users, portfolios, assets, and compliance tags (`HALAL`, `REVIEW`, `EXCLUDE`).
+- `/health` endpoint for quick backend status checks.
+- Edge‑scheduled price snapshots from Binance REST API.
+- Reproducible migration‑based DB setup.
 
----
+### 🛠 In Progress (v1.2.0 – “API Foundations”)
+- REST API for:
+  - Portfolio CRUD
+  - Holdings CRUD
+  - Live market prices with KV caching
+- Compliance enforcement in API layer.
 
-## Features
+### 🔮 Upcoming
 
-- Live market watch via edge-scheduled price snapshots (Binance REST)
-- Portfolio + holdings in Cloudflare D1 (SQLite at the edge)
-- Shariah-compliance tags with instant filter capability
-- Static UI served from the Worker (polling every 5s)
-- Optional Durable Object for WebSocket fan-out (Phase 2)
-
----
-
-## Stack
-
-- Rust Workers (compiled to WASM via workers-rs)
-- Cloudflare: Workers, KV (price cache), D1 (state), Assets (static), optional Durable Objects
-- Minimal HTML UI; upgrade to Svelte/React later
-- GitHub Actions (optional) for CI deploy
+| Version   | Codename                 | Highlights |
+|-----------|--------------------------|------------|
+| v1.3.0    | **Rust‑UI Web**           | Dioxus WASM front‑end served from Worker; replace static HTML UI |
+| v2.0.0    | **Live Edge**             | Durable Objects for WebSocket streaming, near‑real‑time prices |
+| v2.1.0    | **On‑Chain Insights**     | Address resolvers for EVM, Cardano, Solana |
+| v2.2.0    | **Alerts & Automation**   | Price/compliance alerts via Cloudflare Queues (email/webhook) |
+| v3.0.0    | **Everywhere**            | Dioxus packaged for Desktop (Tauri) + Mobile (iOS/Android) |
+| v3.1.0    | **Advanced Analytics**    | CSV import/export, cost basis, P/L analysis |
 
 ---
 
-## Getting started
+## 🛠 Stack
 
-1. Prereqs: Rust (wasm32 target), Node, Wrangler
-2. Install deps:
-   - `npm i -g wrangler`
-   - `rustup target add wasm32-unknown-unknown`
-3. Cloudflare resources:
-   - `wrangler kv namespace create PRICES_KV`
-   - `wrangler d1 create halal_watch`
-4. Configure `wrangler.toml` with your KV/D1 IDs.
-5. Secrets:
-   - `wrangler secret put BINANCE_API_BASE` (e.g., `https://api.binance.com`)
-6. Seed DB:
-   - `wrangler d1 execute halal_watch --file db/schema.sql`
-   - `wrangler d1 execute halal_watch --file db/seed.sql`
-7. Run locally: `wrangler dev`
-8. Deploy: `wrangler deploy`
-
-Set a cron in Cloudflare (or via `wrangler deploy --triggers.cron="* * * * *"`) so prices refresh every minute.
+- **Rust Workers** → [`workers-rs`](https://github.com/cloudflare/workers-rs), compiled to WASM  
+- **Cloudflare** → Workers, KV, D1, Assets, Durable Objects (future)  
+- **Dioxus** (from v1.3.0) → Cross‑platform UI in Rust (Web, Desktop, Mobile)  
+- Minimal HTML UI → Phase‑out in favour of Dioxus front‑end  
+- GitHub Actions → CI/CD
 
 ---
 
-## API
+## 📂 Repository Structure
 
-- `GET /api/prices?symbols=BTC,ETH,ADA` → latest prices from KV
-- `GET /api/portfolio/:id` → holdings + compliance tags (seed has `:id = 1`)
-
----
-
-## Roadmap
-
-- WebSocket live updates via Durable Object
-- On-chain balance resolvers (EVM, Cardano, Solana)
-- Alerts (email/webhook) via Cloudflare Queues
-- CSV import/export and cost basis analytics
+crypto-tracker/ ├─ wrangler.toml             # Cloudflare config ├─ package.json              # Scripts for dev/deploy ├─ src/ │  ├─ lib.rs                  # Worker entry + router │  ├─ routes.rs               # API handlers ├─ db/ │  ├─ schema.sql              # Initial DB schema │  └─ seed.sql                 # Seed data ├─ public/ │  └─ index.html              # Minimal HTML UI (v1.0–v1.2) ├─ ui/                        # (From v1.3) Dioxus front-end └─ .github/workflows/         # Optional C
 
 ---
 
-## Notes
+## ⚡ Quickstart
 
-- Only spot price snapshots are stored; no derivatives.
-- Compliance tags are simple and auditable; update `db/seed.sql` or write an admin route.
+```bash
+# Install prerequisites
+npm i -g wrangler
+rustup target add wasm32-unknown-unknown
+
+# Create Cloudflare KV & D1
+wrangler kv namespace create PRICES_KV
+wrangler d1 create crypto_tracker
+
+# Apply schema & seed
+wrangler d1 execute crypto_tracker --file=./db/schema.sql
+wrangler d1 execute crypto_tracker --file=./db/seed.sql
+
+# Run locally
+wrangler dev
+
+# Deploy
+wrangler deploy
+```
+
+Schedule a Cloudflare Cron (*/1 * * * *) to refresh prices every minute.
+
+
+## 📡 API Reference
+- GET /health → DB status & asset count
+- (More endpoints in v1.2.0+)
+
+## 📜 Notes
+- Only spot prices stored; no derivatives.
+- Compliance rules are transparent and auditable.
+
+## 🤝 Contributing
+PRs and feature ideas are welcome! Open an issue to start the conversation.
+
+## 📄 License
+MIT — see LICENSE.
