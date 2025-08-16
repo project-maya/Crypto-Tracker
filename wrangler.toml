@@ -13,9 +13,9 @@ DEFAULT_SYMBOLS = "BTC,ETH,ADA,MATIC,AVAX,SOL,LINK,XLM"
 
 [[kv_namespaces]]
 binding = "PRICES_KV"
-id = "REPLACE_WITH_KV_ID"
+id = ${{ secrets.CF_KV_ID }}
 
 [[d1_databases]]
 binding = "DB"
 database_name = "crypto_tracker"
-database_id = "REPLACE_WITH_D1_ID" # to do
+database_id = ${{ secrets.CF_D1_ID }}
