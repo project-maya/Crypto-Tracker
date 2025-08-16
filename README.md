@@ -61,7 +61,28 @@ and **faith‑aligned compliance**. This tracker exists to fill that gap by:
 
 ## 📂 Repository Structure
 
-crypto-tracker/ ├─ wrangler.toml             # Cloudflare config ├─ package.json              # Scripts for dev/deploy ├─ src/ │  ├─ lib.rs                  # Worker entry + router │  ├─ routes.rs               # API handlers ├─ db/ │  ├─ schema.sql              # Initial DB schema │  └─ seed.sql                 # Seed data ├─ public/ │  └─ index.html              # Minimal HTML UI (v1.0–v1.2) ├─ ui/                        # (From v1.3) Dioxus front-end └─ .github/workflows/         # Optional C
+crypto-tracker/
+├─ wrangler.toml                 # Cloudflare config (Workers, D1, KV, assets)
+├─ package.json                  # convenience scripts (dev, build, deploy)
+├─ src/
+│  ├─ lib.rs                     # Worker entry, router, scheduled tasks
+│  └─ routes.rs                  # Backend API handlers
+├─ migrations/
+│  ├─ 0001_init.sql              # D1 schema
+│  └─ 0002_seed.sql              # D1 seed (SQLite-safe)
+├─ public/                       # Static files served by Worker (GHA deploys this)
+│  ├─ index.html                 # Landing page
+│  └─ app/                       # Built Dioxus web artifacts (copied from ui/dist)
+│     ├─ index.html
+│     ├─ dioxus_app_bg.wasm
+│     └─ ...assets...
+├─ ui/                           # Dioxus app (Rust UI)
+│  ├─ src/
+│  │  └─ main.rs
+│  ├─ Cargo.toml
+│  └─ dist/                      # dx build output (ignored by git)
+├─ .github/workflows/            # optional CI
+└─ README.md
 
 ---
 
