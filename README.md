@@ -1,3 +1,12 @@
+---
+# Crypto Tracker Backend
+
+[![GitHub release](https://img.shields.io/github/v/release/project-maya/Crypto-Tracker?sort=semver&color=success&label=release)](https://github.com/project-maya/Crypto-Tracker/releases)
+
+Rust + Cloudflare Workers backend for a Shariah‑compliant, privacy‑focused crypto tracker.
+
+---
+
 # Crypto-Tracker (Rust + Cloudflare Edge)
 
 A lean, Rust-first crypto market watch and portfolio tracker hosted at the edge. It tracks a curated set of assets and supports Shariah-compliance tagging out of the box.
