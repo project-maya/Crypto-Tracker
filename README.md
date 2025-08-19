@@ -1,11 +1,16 @@
+
+---
+
 # 🕌 Shariah‑Compliant Crypto Tracker  
-**Rust + Cloudflare Workers + Dioxus Roadmap | Ethical | Serverless | Reproducible**
+**Rust + Cloudflare Workers + Dioxus Roadmap | Ethical | Serverless | Reproducible**
 
 A lean, Rust‑first crypto market watch and portfolio tracker hosted at the edge.  
 Built to deliver **fast, privacy‑first tracking** of a curated set of crypto assets —  
 with **Shariah‑compliance tagging and filtering baked in** from the start.
 
-[![GitHub release](https://img.shields.io/github/v/release/project-maya/Crypto-Tracker?sort=semver&color=success&label=release)](https://github.com/project-maya/Crypto-Tracker/releases)
+[![GitHub release](https://img.shields.io/github/v/release/project-maya/Crypto-Tracker?sort=semver&color=success&label=release)](https://github.com/project-maya/Crypto-Tracker/releases)  
+[![Roadmap Progress](https://img.shields.io/badge/Roadmap-v1.1.1%20UI%20Baseline-blue)](#-credits)  
+[![Live Dev UI](https://img.shields.io/badge/dev%20UI-online-brightgreen)](http://127.0.0.1:8080) <!-- Local/dev link for reference -->
 
 ---
 
@@ -14,27 +19,32 @@ with **Shariah‑compliance tagging and filtering baked in** from the start.
 Crypto investment tools are everywhere — but few prioritize **ethical transparency**  
 and **faith‑aligned compliance**. This tracker exists to fill that gap by:
 
-- Tracking only approved or review‑status assets based on compliance rules you control.
-- Running **entirely on serverless edge infrastructure** for speed and scalability.
-- Keeping **data flows minimal** for privacy, without selling or sharing usage data.
-- Providing a **reproducible, version‑controlled backend** so anyone can self‑host with confidence.
+- Tracking only approved or review‑status assets based on compliance rules you control.  
+- Running **entirely on serverless edge infrastructure** for speed and scalability.  
+- Keeping **data flows minimal** for privacy, without selling or sharing usage data.  
+- Providing a **reproducible, version‑controlled backend + UI** so anyone can self‑host with confidence.
 
 ---
 
 ## 🚀 Features
 
-### ✅ Current (v1.1.0)
-- **D1 schema & seed** for users, portfolios, assets, and compliance tags (`HALAL`, `REVIEW`, `EXCLUDE`).
-- `/health` endpoint for quick backend status checks.
-- Edge‑scheduled price snapshots from Binance REST API.
-- Reproducible migration‑based DB setup.
+### ✅ Current (v1.1.0) – *Backend Foundations*
+- **D1 schema & seed** for users, portfolios, assets, and compliance tags (`HALAL`, `REVIEW`, `EXCLUDE`)  
+- `/health` endpoint for quick backend status checks  
+- Edge‑scheduled price snapshots from Binance REST API  
+- Reproducible migration‑based DB setup  
+
+### 🟦 [v1.1.1 (UI Baseline – in dev)](#-credits)
+- **Dioxus UI crate builds & serves locally** via `dx serve --platform web`  
+- Hot‑reload in browser for rapid front‑end iteration  
+- Baseline component ready for future API integration
 
 ### 🛠 In Progress (v1.2.0 – “API Foundations”)
-- REST API for:
-  - Portfolio CRUD
-  - Holdings CRUD
-  - Live market prices with KV caching
-- Compliance enforcement in API layer.
+- REST API for:  
+  - Portfolio CRUD  
+  - Holdings CRUD  
+  - Live market prices with KV caching  
+- Compliance enforcement in API layer
 
 ### 🔮 Upcoming
 
@@ -61,34 +71,34 @@ and **faith‑aligned compliance**. This tracker exists to fill that gap by:
 
 ## 📂 Repository Structure
 
+```text
 crypto-tracker/
-├─ wrangler.toml                 # Cloudflare config (Workers, D1, KV, assets)
-├─ package.json                  # convenience scripts (dev, build, deploy)
+├─ wrangler.toml
+├─ package.json
 ├─ src/
-│  ├─ lib.rs                     # Worker entry, router, scheduled tasks
-│  └─ routes.rs                  # Backend API handlers
+│  ├─ lib.rs
+│  └─ routes.rs
 ├─ migrations/
-│  ├─ 0001_init.sql              # D1 schema
-│  └─ 0002_seed.sql              # D1 seed (SQLite-safe)
-├─ public/                       # Static files served by Worker (GHA deploys this)
-│  ├─ index.html                 # Landing page
-│  └─ app/                       # Built Dioxus web artifacts (copied from ui/dist)
-│     ├─ index.html
-│     ├─ dioxus_app_bg.wasm
-│     └─ ...assets...
-├─ ui/                           # Dioxus app (Rust UI)
+│  ├─ 0001_init.sql
+│  └─ 0002_seed.sql
+├─ public/
+│  ├─ index.html
+│  └─ app/            # Built Dioxus web artifacts
+├─ ui/                # Dioxus app (Rust UI)
 │  ├─ src/
 │  │  └─ main.rs
 │  ├─ Cargo.toml
-│  └─ dist/                      # dx build output (ignored by git)
-├─ .github/workflows/            # optional CI
+│  └─ dist/           # dx build output
+├─ .github/workflows/
 └─ README.md
+```
 
 ---
 
 ## ⚡ Quickstart
 
 ```bash
+
 # Install prerequisites
 npm i -g wrangler
 rustup target add wasm32-unknown-unknown
@@ -101,26 +111,56 @@ wrangler d1 create crypto_tracker
 wrangler d1 execute crypto_tracker --file=./db/schema.sql
 wrangler d1 execute crypto_tracker --file=./db/seed.sql
 
-# Run locally
+# Run backend locally
 wrangler dev
 
-# Deploy
+# Run UI locally
+cd ui
+dx serve --platform web
+
+# Deploy backend
 wrangler deploy
+
 ```
 
-Schedule a Cloudflare Cron (*/1 * * * *) to refresh prices every minute.
+Schedule a Cloudflare Cron (`*/1 * * * *`) to refresh prices every minute.
 
+---
 
 ## 📡 API Reference
-- GET /health → DB status & asset count
+- `GET /health` → DB status & asset count  
 - (More endpoints in v1.2.0+)
 
+---
+
 ## 📜 Notes
-- Only spot prices stored; no derivatives.
-- Compliance rules are transparent and auditable.
+- Only spot prices stored; no derivatives  
+- Compliance rules are transparent and auditable
+
+---
 
 ## 🤝 Contributing
-PRs and feature ideas are welcome! Open an issue to start the conversation.
+PRs and feature ideas are welcome! Open an issue to start the conversation. If your change adds a new dependency, please also update `credits.json`.
+
+---
+
+## 🔍 Credits
+
+This project stands on the shoulders of some excellent open‑source work and services.
+
+📦 Credits are dynamically loaded from [`credits.json`](./ui/public/credits.json) for transparency and reproducibility.
+
+Example entries:
+
+* 🦀 [Rust](https://www.rust-lang.org)
+* 🎨 [Dioxus](https://dioxuslabs.com)
+* ⚡ [workers‑rs](https://github.com/cloudflare/workers-rs)
+
+…plus more in the full list.
+
+---
 
 ## 📄 License
-MIT — see LICENSE.
+MIT — see LICENSE
+
+---

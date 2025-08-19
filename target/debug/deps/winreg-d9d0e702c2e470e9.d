@@ -1,0 +1,11 @@
+F:\TeknologiMAYA\Project\Crypto-Tracker\target\debug\deps\libwinreg-d9d0e702c2e470e9.rmeta: C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\winreg-0.50.0\src\lib.rs C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\winreg-0.50.0\src\common.rs C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\winreg-0.50.0\src\enums.rs C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\winreg-0.50.0\src\reg_key.rs C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\winreg-0.50.0\src\reg_key_metadata.rs C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\winreg-0.50.0\src\reg_value.rs C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\winreg-0.50.0\src\types.rs
+
+F:\TeknologiMAYA\Project\Crypto-Tracker\target\debug\deps\winreg-d9d0e702c2e470e9.d: C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\winreg-0.50.0\src\lib.rs C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\winreg-0.50.0\src\common.rs C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\winreg-0.50.0\src\enums.rs C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\winreg-0.50.0\src\reg_key.rs C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\winreg-0.50.0\src\reg_key_metadata.rs C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\winreg-0.50.0\src\reg_value.rs C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\winreg-0.50.0\src\types.rs
+
+C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\winreg-0.50.0\src\lib.rs:
+C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\winreg-0.50.0\src\common.rs:
+C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\winreg-0.50.0\src\enums.rs:
+C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\winreg-0.50.0\src\reg_key.rs:
+C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\winreg-0.50.0\src\reg_key_metadata.rs:
+C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\winreg-0.50.0\src\reg_value.rs:
+C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\winreg-0.50.0\src\types.rs:

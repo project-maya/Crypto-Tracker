@@ -1,0 +1,10 @@
+F:\TeknologiMAYA\Project\Crypto-Tracker\target\wasm-dev\deps\libproc_macro2_diagnostics-923b4753547ac0d4.rmeta: C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\proc-macro2-diagnostics-0.10.1\src\lib.rs C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\proc-macro2-diagnostics-0.10.1\src\ext.rs C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\proc-macro2-diagnostics-0.10.1\src\diagnostic.rs C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\proc-macro2-diagnostics-0.10.1\src\line.rs
+
+F:\TeknologiMAYA\Project\Crypto-Tracker\target\wasm-dev\deps\libproc_macro2_diagnostics-923b4753547ac0d4.rlib: C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\proc-macro2-diagnostics-0.10.1\src\lib.rs C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\proc-macro2-diagnostics-0.10.1\src\ext.rs C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\proc-macro2-diagnostics-0.10.1\src\diagnostic.rs C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\proc-macro2-diagnostics-0.10.1\src\line.rs
+
+F:\TeknologiMAYA\Project\Crypto-Tracker\target\wasm-dev\deps\proc_macro2_diagnostics-923b4753547ac0d4.d: C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\proc-macro2-diagnostics-0.10.1\src\lib.rs C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\proc-macro2-diagnostics-0.10.1\src\ext.rs C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\proc-macro2-diagnostics-0.10.1\src\diagnostic.rs C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\proc-macro2-diagnostics-0.10.1\src\line.rs
+
+C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\proc-macro2-diagnostics-0.10.1\src\lib.rs:
+C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\proc-macro2-diagnostics-0.10.1\src\ext.rs:
+C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\proc-macro2-diagnostics-0.10.1\src\diagnostic.rs:
+C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\proc-macro2-diagnostics-0.10.1\src\line.rs:

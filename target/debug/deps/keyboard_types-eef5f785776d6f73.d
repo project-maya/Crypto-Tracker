@@ -1,0 +1,10 @@
+F:\TeknologiMAYA\Project\Crypto-Tracker\target\debug\deps\libkeyboard_types-eef5f785776d6f73.rmeta: C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\keyboard-types-0.7.0\src\lib.rs C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\keyboard-types-0.7.0\src\code.rs C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\keyboard-types-0.7.0\src\key.rs C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\keyboard-types-0.7.0\src\location.rs C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\keyboard-types-0.7.0\src\modifiers.rs C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\keyboard-types-0.7.0\src\shortcuts.rs
+
+F:\TeknologiMAYA\Project\Crypto-Tracker\target\debug\deps\keyboard_types-eef5f785776d6f73.d: C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\keyboard-types-0.7.0\src\lib.rs C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\keyboard-types-0.7.0\src\code.rs C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\keyboard-types-0.7.0\src\key.rs C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\keyboard-types-0.7.0\src\location.rs C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\keyboard-types-0.7.0\src\modifiers.rs C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\keyboard-types-0.7.0\src\shortcuts.rs
+
+C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\keyboard-types-0.7.0\src\lib.rs:
+C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\keyboard-types-0.7.0\src\code.rs:
+C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\keyboard-types-0.7.0\src\key.rs:
+C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\keyboard-types-0.7.0\src\location.rs:
+C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\keyboard-types-0.7.0\src\modifiers.rs:
+C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\keyboard-types-0.7.0\src\shortcuts.rs:

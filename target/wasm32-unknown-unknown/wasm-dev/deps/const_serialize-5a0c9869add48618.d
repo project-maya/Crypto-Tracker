@@ -1,0 +1,10 @@
+F:\TeknologiMAYA\Project\Crypto-Tracker\target\wasm32-unknown-unknown\wasm-dev\deps\libconst_serialize-5a0c9869add48618.rmeta: C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\const-serialize-0.6.2\src/lib.rs C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\const-serialize-0.6.2\src\const_buffers.rs C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\const-serialize-0.6.2\src\const_vec.rs C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\const-serialize-0.6.2\src\../README.md
+
+F:\TeknologiMAYA\Project\Crypto-Tracker\target\wasm32-unknown-unknown\wasm-dev\deps\libconst_serialize-5a0c9869add48618.rlib: C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\const-serialize-0.6.2\src/lib.rs C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\const-serialize-0.6.2\src\const_buffers.rs C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\const-serialize-0.6.2\src\const_vec.rs C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\const-serialize-0.6.2\src\../README.md
+
+F:\TeknologiMAYA\Project\Crypto-Tracker\target\wasm32-unknown-unknown\wasm-dev\deps\const_serialize-5a0c9869add48618.d: C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\const-serialize-0.6.2\src/lib.rs C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\const-serialize-0.6.2\src\const_buffers.rs C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\const-serialize-0.6.2\src\const_vec.rs C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\const-serialize-0.6.2\src\../README.md
+
+C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\const-serialize-0.6.2\src/lib.rs:
+C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\const-serialize-0.6.2\src\const_buffers.rs:
+C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\const-serialize-0.6.2\src\const_vec.rs:
+C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\const-serialize-0.6.2\src\../README.md:

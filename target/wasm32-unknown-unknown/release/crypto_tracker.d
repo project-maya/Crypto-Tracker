@@ -1,1 +1,0 @@
-F:\TeknologiMAYA\Project\Crypto-Tracker\target\wasm32-unknown-unknown\release\crypto_tracker.wasm: F:\TeknologiMAYA\Project\Crypto-Tracker\src\lib.rs F:\TeknologiMAYA\Project\Crypto-Tracker\src\routes.rs

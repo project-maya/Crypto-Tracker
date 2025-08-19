@@ -1,0 +1,38 @@
+[
+    {
+  "version": "1.0.0",
+  "description": "Crypto Tracker UI - A Shariah-compliant crypto market watch and portfolio tracker.",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Teknologi MAYA",
+      "email": "teknologimaya@outlook.com",
+      "url": "https://teknologimaya.hosting-maya.com"}
+  ]
+},
+  {
+    "name": "Rust",
+    "url": "https://www.rust-lang.org",
+    "emoji": "🦀"
+  },
+  {
+    "name": "Dioxus",
+    "url": "https://dioxuslabs.com",
+    "emoji": "🎨"
+  },
+  {
+    "name": "workers-rs",
+    "url": "https://github.com/cloudflare/workers-rs",
+    "emoji": "⚡"
+  },
+  {
+    "name": "Binance API",
+    "url": "https://binance-docs.github.io/apidocs/spot/en/",
+    "emoji": "📊"
+  },
+  {
+    "name": "Cloudflare D1",
+    "url": "https://developers.cloudflare.com/d1",
+    "emoji": "🗄️"
+  }
+]

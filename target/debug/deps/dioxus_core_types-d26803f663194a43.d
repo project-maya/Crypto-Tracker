@@ -1,0 +1,9 @@
+F:\TeknologiMAYA\Project\Crypto-Tracker\target\debug\deps\libdioxus_core_types-d26803f663194a43.rmeta: C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\dioxus-core-types-0.6.2\src/lib.rs C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\dioxus-core-types-0.6.2\src\bubbles.rs C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\dioxus-core-types-0.6.2\src\bundled.rs C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\dioxus-core-types-0.6.2\src\formatter.rs C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\dioxus-core-types-0.6.2\src\hr_context.rs
+
+F:\TeknologiMAYA\Project\Crypto-Tracker\target\debug\deps\dioxus_core_types-d26803f663194a43.d: C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\dioxus-core-types-0.6.2\src/lib.rs C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\dioxus-core-types-0.6.2\src\bubbles.rs C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\dioxus-core-types-0.6.2\src\bundled.rs C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\dioxus-core-types-0.6.2\src\formatter.rs C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\dioxus-core-types-0.6.2\src\hr_context.rs
+
+C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\dioxus-core-types-0.6.2\src/lib.rs:
+C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\dioxus-core-types-0.6.2\src\bubbles.rs:
+C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\dioxus-core-types-0.6.2\src\bundled.rs:
+C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\dioxus-core-types-0.6.2\src\formatter.rs:
+C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\dioxus-core-types-0.6.2\src\hr_context.rs:

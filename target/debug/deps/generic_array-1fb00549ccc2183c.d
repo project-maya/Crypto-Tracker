@@ -1,0 +1,11 @@
+F:\TeknologiMAYA\Project\Crypto-Tracker\target\debug\deps\libgeneric_array-1fb00549ccc2183c.rmeta: C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\generic-array-0.14.7\src\lib.rs C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\generic-array-0.14.7\src\hex.rs C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\generic-array-0.14.7\src\impls.rs C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\generic-array-0.14.7\src\arr.rs C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\generic-array-0.14.7\src\functional.rs C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\generic-array-0.14.7\src\iter.rs C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\generic-array-0.14.7\src\sequence.rs
+
+F:\TeknologiMAYA\Project\Crypto-Tracker\target\debug\deps\generic_array-1fb00549ccc2183c.d: C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\generic-array-0.14.7\src\lib.rs C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\generic-array-0.14.7\src\hex.rs C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\generic-array-0.14.7\src\impls.rs C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\generic-array-0.14.7\src\arr.rs C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\generic-array-0.14.7\src\functional.rs C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\generic-array-0.14.7\src\iter.rs C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\generic-array-0.14.7\src\sequence.rs
+
+C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\generic-array-0.14.7\src\lib.rs:
+C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\generic-array-0.14.7\src\hex.rs:
+C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\generic-array-0.14.7\src\impls.rs:
+C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\generic-array-0.14.7\src\arr.rs:
+C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\generic-array-0.14.7\src\functional.rs:
+C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\generic-array-0.14.7\src\iter.rs:
+C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\generic-array-0.14.7\src\sequence.rs:

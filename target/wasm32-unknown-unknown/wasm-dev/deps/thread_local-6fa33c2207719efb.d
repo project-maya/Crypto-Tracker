@@ -1,0 +1,10 @@
+F:\TeknologiMAYA\Project\Crypto-Tracker\target\wasm32-unknown-unknown\wasm-dev\deps\libthread_local-6fa33c2207719efb.rmeta: C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\thread_local-1.1.9\src/lib.rs C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\thread_local-1.1.9\src\cached.rs C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\thread_local-1.1.9\src\thread_id.rs C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\thread_local-1.1.9\src\unreachable.rs
+
+F:\TeknologiMAYA\Project\Crypto-Tracker\target\wasm32-unknown-unknown\wasm-dev\deps\libthread_local-6fa33c2207719efb.rlib: C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\thread_local-1.1.9\src/lib.rs C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\thread_local-1.1.9\src\cached.rs C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\thread_local-1.1.9\src\thread_id.rs C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\thread_local-1.1.9\src\unreachable.rs
+
+F:\TeknologiMAYA\Project\Crypto-Tracker\target\wasm32-unknown-unknown\wasm-dev\deps\thread_local-6fa33c2207719efb.d: C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\thread_local-1.1.9\src/lib.rs C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\thread_local-1.1.9\src\cached.rs C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\thread_local-1.1.9\src\thread_id.rs C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\thread_local-1.1.9\src\unreachable.rs
+
+C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\thread_local-1.1.9\src/lib.rs:
+C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\thread_local-1.1.9\src\cached.rs:
+C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\thread_local-1.1.9\src\thread_id.rs:
+C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\thread_local-1.1.9\src\unreachable.rs:

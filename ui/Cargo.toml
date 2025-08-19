@@ -1,0 +1,17 @@
+[package]
+name = "crypto-tracker-ui"
+version = "1.1.1"
+edition = "2025"
+
+[dependencies]
+dioxus = "0.6.3"
+dioxus-web = "0.6.3"
+serde = { version = "1.0", features = ["derive"] }
+
+# Optional but useful for logging and async HTTP
+dioxus-logger = "0.6.0"
+gloo-net = "0.4"
+wasm-bindgen-futures = "0.4"
+
+[package.metadata.dioxus]
+assets = ["assets"]

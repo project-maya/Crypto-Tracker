@@ -1,0 +1,9 @@
+F:\TeknologiMAYA\Project\Crypto-Tracker\target\debug\deps\libserde_wasm_bindgen-4ea38a23c12f8094.rmeta: C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\serde-wasm-bindgen-0.5.0\src\lib.rs C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\serde-wasm-bindgen-0.5.0\src\de.rs C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\serde-wasm-bindgen-0.5.0\src\error.rs C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\serde-wasm-bindgen-0.5.0\src\ser.rs C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\serde-wasm-bindgen-0.5.0\src\../README.md
+
+F:\TeknologiMAYA\Project\Crypto-Tracker\target\debug\deps\serde_wasm_bindgen-4ea38a23c12f8094.d: C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\serde-wasm-bindgen-0.5.0\src\lib.rs C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\serde-wasm-bindgen-0.5.0\src\de.rs C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\serde-wasm-bindgen-0.5.0\src\error.rs C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\serde-wasm-bindgen-0.5.0\src\ser.rs C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\serde-wasm-bindgen-0.5.0\src\../README.md
+
+C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\serde-wasm-bindgen-0.5.0\src\lib.rs:
+C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\serde-wasm-bindgen-0.5.0\src\de.rs:
+C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\serde-wasm-bindgen-0.5.0\src\error.rs:
+C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\serde-wasm-bindgen-0.5.0\src\ser.rs:
+C:\Users\imran\.cargo\registry\src\index.crates.io-6f17d22bba15001f\serde-wasm-bindgen-0.5.0\src\../README.md:
