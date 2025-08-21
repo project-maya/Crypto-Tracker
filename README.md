@@ -34,7 +34,7 @@ and **faith‑aligned compliance**. This tracker exists to fill that gap by:
 - Edge‑scheduled price snapshots from Binance REST API  
 - Reproducible migration‑based DB setup  
 
-### 🟦 [v1.1.1 (UI Baseline – in dev)](#-credits)
+### 🟦 [v1.1.1 (UI Baseline)](#-credits)
 - **Dioxus UI crate builds & serves locally** via `dx serve --platform web`  
 - Hot‑reload in browser for rapid front‑end iteration  
 - Baseline component ready for future API integration
